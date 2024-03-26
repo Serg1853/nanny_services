@@ -1,13 +1,13 @@
-import { Container, Title, StyledImage } from './FirstPage.styled';
+import { Container, Title, StyledImage } from './HomePage.styled';
 import example from '../../assets/example.png';
 
-const FirstPage = () => {
+const HomePage = () => {
   return (
     <Container>
-      <Title>First Page</Title>
+      <Title>Home Page</Title>
       <StyledImage src={example} alt="Example" />
     </Container>
   );
 };
 
-export default FirstPage;
+export default HomePage;
