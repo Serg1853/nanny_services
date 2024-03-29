@@ -6,9 +6,12 @@ export const HeaderContainer = styled.div`
   align-items: center;
   border-radius: 30px;
   background: #0957c3;
-  width: 100%;
+  max-width: 1184px;
   height: 48px;
   padding: 20px 96px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 export const StyledLinkLogo = styled(Link)`
   color: #fbfbfb;
@@ -72,6 +75,7 @@ export const Button = styled.button`
   border: 1px solid rgba(251, 251, 251, 0.4);
   padding: 14px 39px;
   background-color: inherit;
+  cursor: pointer;
   color: #fbfbfb;
   font-family: 'Helvetica Neue';
   font-size: 16px;
@@ -84,6 +88,7 @@ export const ButtonRegistration = styled.button`
   border-radius: 30px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   padding: 14px 39px;
+  cursor: pointer;
   color: #fbfbfb;
   font-family: 'Helvetica Neue';
   font-size: 16px;

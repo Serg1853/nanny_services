@@ -1,12 +1,19 @@
-import { Container, Title, StyledImage } from './HomePage.styled';
-import example from '../../assets/example.png';
-
+import {
+  Button,
+  HeroContainer,
+  HeroTitle,
+  Text,
+  TextContainer,
+} from './HomePage.styled';
 const HomePage = () => {
   return (
-    <Container>
-      <Title>Home Page</Title>
-      <StyledImage src={example} alt="Example" />
-    </Container>
+    <HeroContainer>
+      <TextContainer>
+        <HeroTitle>Make Life Easier for the Family:</HeroTitle>
+        <Text>Find Babysitters Online for All Occasions</Text>
+        <Button>Get started</Button>
+      </TextContainer>
+    </HeroContainer>
   );
 };
 
