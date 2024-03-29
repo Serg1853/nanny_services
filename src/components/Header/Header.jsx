@@ -5,6 +5,7 @@ import {
   Navigation,
   StyledLink,
   Button,
+  ButtonRegistration,
 } from './Header.styled';
 
 export const Header = () => {
@@ -18,7 +19,7 @@ export const Header = () => {
       </Navigation>
       <ButtonContainer>
         <Button>Log In</Button>
-        <Button>Registration</Button>
+        <ButtonRegistration>Registration</ButtonRegistration>
       </ButtonContainer>
     </HeaderContainer>
   );

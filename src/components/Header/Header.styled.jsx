@@ -73,13 +73,24 @@ export const Button = styled.button`
   padding: 14px 39px;
   background-color: inherit;
   color: #fbfbfb;
-  color: #fbfbfb;
-
   font-family: 'Helvetica Neue';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 125% */
   letter-spacing: -0.16px;
+`;
+export const ButtonRegistration = styled.button`
+  border-radius: 30px;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  padding: 14px 39px;
+  color: #fbfbfb;
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
+  background-color: #0957c3;
 `;
 
