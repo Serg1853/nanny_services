@@ -2,17 +2,43 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background: #0957c3;
+  width: 100%;
+  height: 48px;
+  padding: 20px 96px;
 `;
+export const StyledLinkLogo = styled(Link)`
+  color: #fbfbfb;
 
+  font-family: 'Helvetica Neue';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.48px;
+  color: #fbfbfb;
+`;
 export const Navigation = styled.nav`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: 92px;
 `;
 
 export const StyledLink = styled(Link)`
-  padding: 8px 16px;
+  color: #fbfbfb;
+
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
   color: #ffffff; /* White text color */
   text-shadow:
     0 0 5px #00baff,
@@ -35,17 +61,25 @@ export const StyledLink = styled(Link)`
       0 0 80px #00baff;
   }
 `;
-
-export const IconWrapper = styled.svg`
-  width: ${(props) => props.size || '12px'};
-  height: ${(props) => props.size || '12px'};
-  fill: ${(props) => props.color || '#ffffff'};
-  display: inline-block;
-  margin-right: 5px;
-  box-shadow:
-    0 0 5px #00baff,
-    0 0 10px #00baff,
-    0 0 20px #00baff,
-    0 0 40px #00baff,
-    0 0 80px #00baff;
+export const ButtonContainer = styled.div`
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
 `;
+export const Button = styled.button`
+  border-radius: 30px;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  padding: 14px 39px;
+  background-color: inherit;
+  color: #fbfbfb;
+  color: #fbfbfb;
+
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
+`;
+
