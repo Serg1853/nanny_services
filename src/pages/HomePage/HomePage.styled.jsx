@@ -72,6 +72,7 @@ export const Button = styled.button`
   align-items: center;
   gap: 18px;
   border-radius: 30px;
+  background-color: #0957c3;
   border: 1px solid rgba(251, 251, 251, 0.4);
   color: #fbfbfb;
   cursor: pointer;
@@ -81,4 +82,7 @@ export const Button = styled.button`
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: -0.2px;
+`;
+export const ImageContainer = styled.div`
+  background-image: 'url(/Rectangle.png)';
 `;
