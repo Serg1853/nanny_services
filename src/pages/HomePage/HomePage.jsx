@@ -19,7 +19,7 @@ const HomePage = () => {
           Get started <IconArrow />
         </Button>
       </TextContainer>
-      <ImageContainer></ImageContainer>
+      <ImageContainer />
     </HeroContainer>
   );
 };

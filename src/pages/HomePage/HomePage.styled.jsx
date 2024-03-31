@@ -26,10 +26,10 @@ import styled from '@emotion/styled';
 
 
 export const HeroContainer = styled.div`
-  display: block;
-
+  display: flex;
+  position: relative;
   padding-left: 96px;
-  /* align-items: center; */
+  align-items: center;
   max-width: 1376px;
   height: 736px;
   flex-shrink: 0;
@@ -83,5 +83,10 @@ export const Button = styled.button`
   letter-spacing: -0.2px;
 `;
 export const ImageContainer = styled.div`
-  background-image: 'url(/Rectangle.png)';
+  width: 50%;
+  height: 100vh;
+  background-image: url(/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100% 100%;
 `;
