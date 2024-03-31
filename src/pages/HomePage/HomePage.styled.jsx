@@ -26,11 +26,10 @@ import styled from '@emotion/styled';
 
 
 export const HeroContainer = styled.div`
-display: flex;
+  display: block;
 
-justify-content:flex-start;
-padding-left:96px;
-align-items: center;
+  padding-left: 96px;
+  /* align-items: center; */
   max-width: 1376px;
   height: 736px;
   flex-shrink: 0;
@@ -38,11 +37,11 @@ align-items: center;
   background: #0957c3;
   margin: auto;
 `;
-export const TextContainer=styled.div`
-  display:inline-flex;
-  flex-direction:column;
+export const TextContainer = styled.div`
+  display: inline-flex;
+  flex-direction: column;
   align-items: flex-start;
-`
+`;
 export const HeroTitle = styled.h1`
   width: 517px;
   color: #fbfbfb;
