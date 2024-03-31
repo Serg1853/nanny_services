@@ -28,6 +28,7 @@ import styled from '@emotion/styled';
 export const HeroContainer = styled.div`
   display: flex;
   position: relative;
+  object-fit: cover;
   padding-left: 96px;
   align-items: center;
   max-width: 1376px;
