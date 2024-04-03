@@ -2,10 +2,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-  position: absolute;
-
-
   display: flex;
+  justify-content: center;
   align-items: center;
   background: inherit;
   max-width: 1184px;

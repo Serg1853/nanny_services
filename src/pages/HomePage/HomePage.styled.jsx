@@ -26,8 +26,8 @@ import styled from '@emotion/styled';
 
 
 export const HeroContainer = styled.div`
-  display: flex;
-  position: relative;
+  /* display: flex;
+  flex-direction: column; */
   object-fit: cover;
   padding-left: 96px;
   align-items: center;
@@ -39,7 +39,7 @@ export const HeroContainer = styled.div`
   margin: auto;
 `;
 export const TextContainer = styled.div`
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 `;
@@ -84,10 +84,19 @@ export const Button = styled.button`
   letter-spacing: -0.2px;
 `;
 export const ImageContainer = styled.div`
+  position: absolute;
+  top: 20px;
+  right: 20px;
   width: 50%;
   height: 100vh;
   background-image: url(/Rectangle.png);
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 100% 100%;
+`;
+export const Container = styled.div`
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: center;
 `;

@@ -15,7 +15,7 @@ export const Header = () => {
       <Navigation>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/nannies">Nannies</StyledLink>
-        <StyledLink to="/favorites">Favorites</StyledLink>
+        {/* <StyledLink to="/favorites">Favorites</StyledLink> */}
       </Navigation>
       <ButtonContainer>
         <Button>Log In</Button>
