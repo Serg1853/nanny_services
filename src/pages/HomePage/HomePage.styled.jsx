@@ -88,11 +88,10 @@ export const ImageContainer = styled.div`
   top: 20px;
   right: 20px;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   background-image: url(/Rectangle.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 100% 100%;
 `;
 export const Container = styled.div`
   display: flex;
